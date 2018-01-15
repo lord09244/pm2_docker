@@ -1,0 +1,15 @@
+{
+  "name": "app-test",
+  "script": "src/server/app.js",
+  "instances": "0",
+  "merge_logs" : true,
+  "out_file": "logs/pm2-out.log",
+  "error_file": "logs/pm2-err.log",
+  "exec_mode"  : "cluster",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "env_production" : {
+    "NODE_ENV": "production"
+  }
+}

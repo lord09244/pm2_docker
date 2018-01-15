@@ -1,0 +1,1 @@
+docker run -d -v /Users/dev02/Documents/pm2_docker/logs:/logs -p 3000:3000 --restart unless-stopped app-test
